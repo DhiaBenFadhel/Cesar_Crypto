@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include <ctype.h>
+#include <ctype.h> // To use the isupper function
 
 char encrypt(char* text,int shift, char* encrypted_text){
     int l = strlen(text); // length of input text
